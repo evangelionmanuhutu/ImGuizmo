@@ -637,12 +637,12 @@ namespace IMGUIZMO_NAMESPACE
    Style::Style()
    {
       // default values
-      TranslationLineThickness   = 3.0f;
-      TranslationLineArrowSize   = 6.0f;
-      RotationLineThickness      = 2.0f;
-      RotationOuterLineThickness = 3.0f;
-      ScaleLineThickness         = 3.0f;
-      ScaleLineCircleSize        = 6.0f;
+      TranslationLineThickness = 4.0f;
+      TranslationLineArrowSize = 8.0f;
+      RotationLineThickness = 4.0f;
+      RotationOuterLineThickness = 5.0f;
+      ScaleLineThickness = 4.0f;
+      ScaleLineCircleSize = 5.0f;
       HatchedAxisLineThickness   = 6.0f;
       CenterCircleSize           = 6.0f;
 
@@ -757,7 +757,7 @@ namespace IMGUIZMO_NAMESPACE
       OPERATION mOperation = OPERATION(-1);
 
       bool mAllowAxisFlip = true;
-      float mGizmoSizeClipSpace = 0.1f;
+      float mGizmoSizeClipSpace = 0.18f;
    };
 
    static Context gContext;
